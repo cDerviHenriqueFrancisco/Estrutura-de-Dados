@@ -1,4 +1,3 @@
-public
 
 import java.util.Stack;
 
