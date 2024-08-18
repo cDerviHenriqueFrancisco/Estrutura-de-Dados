@@ -9,9 +9,6 @@ public public class Node {
         this.next = null;
         this.prev = null;
     }
-}Main{
-
-}
 
 public class CircularDoublyLinkedList {
     private Node head;
@@ -31,8 +28,8 @@ public class CircularDoublyLinkedList {
         Node current = head.next;
 
         while (current != head && current.data < value) {
-            current = current.next;
-        }
+        current = current.next;
+    }
 
         newNode.prev = current.prev;
         newNode.next = current;
