@@ -42,9 +42,7 @@ public class PilhasAlternadas {
             System.out.println("Quantidade de elementos restantes na pilha PAR: " + pilhaPar.size());
             System.out.println("Elementos restantes na pilha PAR: " + pilhaPar);
         }
-        
+
         scanner.close();
     }
-}Main{
-
 }
