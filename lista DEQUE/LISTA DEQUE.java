@@ -73,7 +73,6 @@ public class Main {
         FilaCircular fila = new FilaCircular();
         Random random = new Random();
 
-        // Criar 100 pessoas com base nas proporções especificadas
         int idPessoa = 1;
 
         for (int grupo = 1; grupo <= 10; grupo++) {
@@ -105,7 +104,6 @@ public class Main {
         List<Pessoa> atendidos = new ArrayList<>();
         List<Pessoa> naoAtendidos = new ArrayList<>();
 
-        // Processar atendimento de até 100 pessoas
         int count = 0;
         while (!fila.estaVazia() && count < 100) {
             atendidos.add(fila.removerPessoa());
@@ -114,7 +112,6 @@ public class Main {
 
         naoAtendidos.addAll(fila.obterPessoas());
 
-        // Exibir resultados
         System.out.println("Atendimentos realizados:");
         for (Pessoa pessoa : atendidos) {
             System.out.println(pessoa);
